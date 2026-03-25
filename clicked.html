@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> click </title>
+
+<style>
+
+body {
+margin: 0%;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow: hidden;
+}
+
+.ui{
+position: relative;
+width: 1024px;
+display: block;
+}
+
+.bg {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.home{
+position: absolute;
+width: 60px;
+top: 30%;
+left: 15%;
+transition: 0.2s;
+z-index: 10000;
+}
+.home:hover{
+transform: scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+<div class = "ui">
+<img src="galleryui.gif" class="bg">
+<img src="back.png" class="home" onclick="window.location.href='Untitled-1.html'">
+
+   <video controls style="max-width:57%; border-radius:20px; position: absolute; top: 30%;left: 23%;z-index: 5;">
+    <source src="champ.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> gallerrry </title>
+
+<style>
+
+body {
+margin: 0%;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow: hidden;
+}
+
+.ui{
+position: relative;
+width: 1024px;
+display: block;
+}
+
+.mirror{
+position: absolute;
+width: 198px;
+top: 30%;
+left: 12%;
+transition: 0.2s;
+}
+.mirror:hover{
+  content: url("cori.png");
+  transform: scale(1.05);
+}
+
+.twin{
+position:absolute;
+width: 270px;
+transition: 0.2s;
+bottom: 42%;
+left: 31.5%;
+}
+.twin:hover{
+content: url(jeremiah.png);
+transform: scale(1.05);
+}
+
+.hao{
+position: absolute;
+width: 240px;
+transition: 0.2s;
+top: 27%;
+left: 33%;
+}
+.hao:hover{
+content: url(Isa.png);
+transform: scale(1.05);
+}
+
+.pretty{
+position: absolute;
+width: 335px;
+transition: 0.2s;
+bottom: 45%;
+left: 57.5%;
+}
+.pretty:hover{
+content: url(john.png);
+transform: scale(1.05);
+}
+
+.hehehe{
+position: absolute;
+width: 130px;
+transition: 0.2s;
+bottom: 63%;
+right: 30%;
+z-index: 10;
+}
+.hehehe:hover{
+content: url(Romans.png);
+transform: scale(1.05);
+}
+
+.home{
+position: absolute;
+width: 75px;
+top: 31%;
+right: 12%;
+transition: 0.2s;
+z-index: 100;
+}
+.home:hover{
+transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<div class = "ui">
+<img src="galleryui.gif" class="ui">
+<img src="mirror.png" class="mirror">
+<img src="eyes.png" class="twin">
+<img src="hao.png" class="hao">
+<img src="hehehe.png" class="hehehe">
+<img src="pretty.png" class="pretty">
+<img src="back.png" class="home" onclick="window.location.href='Untitled-1.html'">
+
+</html>
